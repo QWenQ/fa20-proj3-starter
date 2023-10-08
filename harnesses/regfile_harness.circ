@@ -86,7 +86,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#../cpu/regfile.circ" name="7"/>
+  <lib desc="file#C:\code\fa20-proj3-starter\cpu\regfile.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -425,8 +425,8 @@
     <wire from="(1400,520)" to="(1460,520)"/>
     <wire from="(1400,540)" to="(1470,540)"/>
     <wire from="(1400,560)" to="(1490,560)"/>
-    <wire from="(1400,580)" to="(1770,580)"/>
-    <wire from="(1400,600)" to="(1780,600)"/>
+    <wire from="(1400,600)" to="(1460,600)"/>
+    <wire from="(1400,620)" to="(1500,620)"/>
     <wire from="(1410,400)" to="(1410,420)"/>
     <wire from="(1420,390)" to="(1420,440)"/>
     <wire from="(1430,380)" to="(1430,460)"/>
@@ -443,12 +443,16 @@
     <wire from="(1450,960)" to="(1500,960)"/>
     <wire from="(1460,300)" to="(1460,520)"/>
     <wire from="(1460,300)" to="(1480,300)"/>
+    <wire from="(1460,580)" to="(1460,600)"/>
+    <wire from="(1460,580)" to="(1770,580)"/>
     <wire from="(1470,310)" to="(1470,540)"/>
     <wire from="(1470,310)" to="(1570,310)"/>
     <wire from="(1480,220)" to="(1480,300)"/>
     <wire from="(1490,320)" to="(1490,560)"/>
     <wire from="(1490,320)" to="(1660,320)"/>
     <wire from="(150,200)" to="(150,220)"/>
+    <wire from="(1500,600)" to="(1500,620)"/>
+    <wire from="(1500,600)" to="(1780,600)"/>
     <wire from="(1570,220)" to="(1570,310)"/>
     <wire from="(1660,220)" to="(1660,320)"/>
     <wire from="(1770,500)" to="(1770,580)"/>
